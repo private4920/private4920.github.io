@@ -1,49 +1,48 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async defer
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-</head>
-  <style>
-    #popup {
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    
-    }
-  </style>
-<body>
-  <div id="popup"><p>In real test, you must complete this exam in 60 minutes. You are not allowed to access unauthorized materials.</p>
-    <button type="button" id="popupbtn">I Understand</button>
-  </div>
-  <div>
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-  </div>
-        <div id="footer">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <style>
+      #popup {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="popup">
+      <p>In real test, you must complete this exam in 60 minutes. You are not allowed to access unauthorized materials.</p>
+      <button type="button" id="popupbtn">I Understand</button>
+    </div>
+    <div>
+      When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+      $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    </div>
+    <div id="footer">
       <hr>
       <footer>
-        <p>Unless otherwise noted, Copyright © 2022-2023 Private. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0 International</a>.</p>
-        
+        <p>Unless otherwise noted, Copyright © 2022-2023 Private. Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0 International</a>.
+        </p>
       </footer>
     </div>
     <script>
       function renderMath() {
-  MathJax.typeset();
-}
+        MathJax.typeset();
+      }
       document.getElementById("popupbtn").addEventListener("click", function() {
-  document.getElementById("popup").style.display = "none";
-  renderMath();
-});
-
-
-  </script>
+        document.getElementById("popup").style.display = "none";
+        renderMath();
+      });
+    </script>
   </body>
 </html>
