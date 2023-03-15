@@ -46,9 +46,11 @@
 	<h1>Centered Heading 1</h1>
 	<div class="iframe-container">
 		<iframe src="https://www.youtube-nocookie.com/embed/a3ICNMQW7Ok"></iframe>
-        <div class="iframe-cover" onclick="showYouTube()">
-            <p>Click to Show YouTube</p>
-            <p>By clicking this button, you agree to Google's Privacy Policy and Terms of Use.</p>
+        <div class="iframe-cover">
+		
+		<p>This YouTube content is hidden for your privacy</p>
+            <p>By clicking this button, you agree to Google's <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></p>
+		 <button class="show-youtube-button" onclick="showYouTube()">Show YouTube Content</button>
         </div>
 	</div>
     <script>
