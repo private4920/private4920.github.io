@@ -4,17 +4,17 @@ A **matrix** is a fundamental mathematical concept used in various fields, inclu
 
 ## Basic Structure
 
-A matrix is typically represented as a rectangular array of numbers, symbols, or expressions enclosed within brackets. It has rows and columns, and the size or dimensions of a matrix are described as $m x n$ , where $m$ is the number of rows, and $n$ is the number of columns.
+A matrix is typically represented as a rectangular array of numbers, symbols, or expressions enclosed within brackets. It has rows and columns, and the size or dimensions of a matrix are described as \\(m x n\\) , where \\(m\\) is the number of rows, and \\(n\\) is the number of columns.
 
 For example, a 3x2 matrix might look like this:
 
- ?DPB? \begin{bmatrix}a & b\\c & d\end{bmatrix} ?DPE?
+ \\[ \begin{bmatrix}a & b\\c & d\end{bmatrix} \\]
 
 In this matrix, there are 3 rows and 2 columns.
 
 ## Notation
 
-Matrices are often denoted by uppercase letters. For example, ?ILB? A ?ILE? might represent a matrix, and its elements can be referred to as $a_{ij}$, where $i$ represents the row number, and $j$ represents the column number. For instance, $a_{2,1}$ refers to the element in the second row and first column of matrix "A."
+Matrices are often denoted by uppercase letters. For example, \\(A\\) might represent a matrix, and its elements can be referred to as \\(a_{ij}\\), where \\(i\\) represents the row number, and \\(j\\) represents the column number. For instance, \\(a_{2,1}\\) refers to the element in the second row and first column of matrix \\(A\\).
 
 ## Types of Matrices
 
