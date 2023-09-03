@@ -18,8 +18,8 @@ Let's consider two matrices A and B:
 
 \$\$
 A = \\begin{bmatrix}
-1 & 2 & 3 \\\
-4 & 5 & 6 \\\
+1 & 2 & 3 \\\\
+4 & 5 & 6 \\\\
 \\end{bmatrix}
 \$\$
 
