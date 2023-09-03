@@ -7,10 +7,10 @@ A **matrix** is a fundamental mathematical concept used in various fields, inclu
 A matrix is typically represented as a rectangular array of numbers, symbols, or expressions enclosed within brackets. It has rows and columns, and the size or dimensions of a matrix are described as \\(m x n\\) , where \\(m\\) is the number of rows, and \\(n\\) is the number of columns.
 
 For example, a 3x2 matrix might look like this:
-<div markdown="0">
+
  \\[ \begin{bmatrix} a & b \\
  c & d \end{bmatrix} \\]
-</div>
+
 
 In this matrix, there are 3 rows and 2 columns.
 
