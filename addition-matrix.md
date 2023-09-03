@@ -14,7 +14,7 @@ C = A + B
 In this equation, \$C\$, \$A\$, and \$B\$ are matrices with the same dimensions, and each element \$C_{ij}\$ is the sum of \$A_{ij}\$ and \$B_{ij}\$.
 
 ### Example
-Let's consider two matrices A and B:
+Let's consider two matrices \$A\$ and \$B\$:
 
 \$\$
 A = \\begin{bmatrix}
@@ -24,24 +24,24 @@ A = \\begin{bmatrix}
 \$\$
 
 \$\$
-B = \begin{bmatrix}
-7 & 8 & 9 \\
-10 & 11 & 12 \\
-\end{bmatrix}
+B = \\begin{bmatrix}
+7 & 8 & 9 \\\\
+10 & 11 & 12 \\\\
+\\end{bmatrix}
 \$\$
 
 To find the sum \$C = A + B\$, we add the corresponding elements:
 
-\[
-C = \begin{bmatrix}
-1+7 & 2+8 & 3+9 \\
-4+10 & 5+11 & 6+12 \\
-\end{bmatrix}
-= \begin{bmatrix}
-8 & 10 & 12 \\
-14 & 16 & 18 \\
-\end{bmatrix}
-\]
+\$\$
+C = \\begin{bmatrix}
+1+7 & 2+8 & 3+9 \\\\
+4+10 & 5+11 & 6+12 \\\\
+\\end{bmatrix}
+= \\begin{bmatrix}
+8 & 10 & 12 \\\\
+14 & 16 & 18 \\\\
+\\end{bmatrix}
+\$\$
 
 ## Properties of Matrix Addition
 
