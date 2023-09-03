@@ -8,13 +8,13 @@ A matrix is typically represented as a rectangular array of numbers, symbols, or
 
 For example, a 3x2 matrix might look like this:
 
-$$
+\\[
 \begin{bmatrix}
 1 & 2 \\
 3 & 4 \\
 5 & 6 \\
 \end{bmatrix}
-$$
+\\]
 
 In this matrix, there are 3 rows and 2 columns.
 
