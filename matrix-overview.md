@@ -8,15 +8,13 @@ A matrix is typically represented as a rectangular array of numbers, symbols, or
 
 For example, a 3x2 matrix might look like this:
 
-\\[
-\begin{bmatrix} a & b \\ c & d \end{bmatrix}
-\\]
+ \[\begin{bmatrix}a & b\\c & d\end{bmatrix}\]
 
 In this matrix, there are 3 rows and 2 columns.
 
 ## Notation
 
-Matrices are often denoted by uppercase letters. For example, \\(A\\) might represent a matrix, and its elements can be referred to as $a_{ij}$, where $i$ represents the row number, and $j$ represents the column number. For instance, $a_{2,1}$ refers to the element in the second row and first column of matrix "A."
+Matrices are often denoted by uppercase letters. For example, \(A\) might represent a matrix, and its elements can be referred to as $a_{ij}$, where $i$ represents the row number, and $j$ represents the column number. For instance, $a_{2,1}$ refers to the element in the second row and first column of matrix "A."
 
 ## Types of Matrices
 
