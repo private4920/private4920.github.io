@@ -8,9 +8,10 @@ A matrix is typically represented as a rectangular array of numbers, symbols, or
 
 For example, a 3x2 matrix might look like this:
 
+<div markdown="0">
  \[ \begin{bmatrix} a & b \\
  c & d \end{bmatrix} \]
-
+</div>
 
 In this matrix, there are 3 rows and 2 columns.
 
