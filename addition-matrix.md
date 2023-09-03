@@ -47,13 +47,13 @@ C = \\begin{bmatrix}
 
 Matrix addition exhibits several important properties:
 
-1. **Commutativity**: Matrix addition is commutative, which means that for any matrices A and B of the same dimensions, A + B = B + A.
+1. **Commutativity**: Matrix addition is commutative, which means that for any matrices \$A\$ and \$B\$ of the same dimensions, \$A + B = B + A\$.
 
-2. **Associativity**: Matrix addition is associative. For three matrices A, B, and C of the same dimensions, (A + B) + C = A + (B + C).
+2. **Associativity**: Matrix addition is associative. For three matrices \$A\$, \$B\$, and \$C \$ of the same dimensions, \$(A + B) + C = A + (B + C)\$.
 
-3. **Identity Element**: The zero matrix, denoted as 0, serves as the identity element for matrix addition. When you add any matrix A to the zero matrix, you get back the original matrix A: A + 0 = A.
+3. **Identity Element**: The zero matrix, denoted as \$0\$, serves as the identity element for matrix addition. When you add any matrix \$A\$ to the zero matrix, you get back the original matrix \$A: A + 0 = A\$.
 
-4. **Inverse Element**: Unlike scalar addition, matrices may not have additive inverses. In other words, there is no matrix -A such that A + (-A) = 0 for all matrices A. This property distinguishes matrix addition from scalar addition.
+4. **Inverse Element**: Unlike scalar addition, matrices may not have additive inverses. In other words, there is no matrix \$-A\$ such that \$A + (-A) = 0\$ for all matrices \$A\$. This property distinguishes matrix addition from scalar addition.
 
 ## Applications of Matrix Addition
 
