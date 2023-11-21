@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="refresh" content="10;url=https://youtu.be/heeYYym7Crg">
+  </head>
+  <body>
+    <h1>Attention</h1>
+    <p>The video is temporarily hosted on YouTube, pending Instagram credentials. You will be redirected shortly.</p>
+    <p id="countdown">10</p>
+
+<script>
+  var count = 10;
+  var countdown = document.getElementById("countdown");
+
+  var countdownInterval = setInterval(function() {
+    count--;
+    countdown.textContent = count;
+
+    if (count === 0) {
+      clearInterval(countdownInterval);
+    }
+  }, 1000);
+</script>
+  </body>
+</html>
